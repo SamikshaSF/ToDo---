@@ -1,0 +1,97 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #9face6);
+    padding: 30px 15px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.options {
+    margin-top: 8px;
+    line-height: 2;
+}
+
+.options input {
+    margin-left: 5px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background: #4a67d6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #304bb0;
+}
+
+.reset {
+    background: #777;
+}
+
+#error {
+    color: red;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#result {
+    display: none;
+    margin-top: 25px;
+    padding: 20px;
+    background: #e8f5e9;
+    border-radius: 8px;
+}
+
+#result h2 {
+    color: #237a35;
+    margin-bottom: 15px;
+}
+
+#studentDetails p {
+    margin: 10px 0;
+    color: #333;
+    overflow-wrap: anywhere;
+}
